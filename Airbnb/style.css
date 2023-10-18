@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.navlogo-style {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+}
+
+.logo-name {
+    color: rgb(255, 56, 92);
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 24px;
+    padding: 10px 6px;
+    width: 350px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.border {
+    padding-right: 10px;
+    border-right: 1px solid lightgray;
+}
+
+.guest p {
+    color: #717171;
+    text-align: center;
+}
+
+.border p {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+.search-icon {
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(255, 56, 92);
+    ;
+    width: 30px;
+    height: 28px;
+    padding: 5px 8px;
+}
+
+.ur-home {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.ur-home:hover {
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.ur-home h3 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.world {
+    padding: 11px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.world:hover {
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    gap: 10px;
+    padding: 12px 10px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 4%;
+    gap: 20px;
+}
+
+.itmes-img {
+    width: 34px;
+    height: 31px;
+    margin: 1px 12px;
+}
+
+.items-list p {
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.items-list1 {
+    border-bottom: 2px solid black;
+}
+
+.items-list1 p {
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.another {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+.bi-chevron-right {
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    border: 2px solid whitesmoke;
+    gap: 9px;
+    border-radius: 15px;
+}
+
+.filter h3 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.togle {
+    display: flex;
+    padding: 9px 6px;
+    border: 2px solid whitesmoke;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 15px;
+}
+
+.togle h3 {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.bi-toggle-off {
+    color: #717171;
+}
+
+
+/* ---------------------------------------Main section-------------------------------------- */
+
+.card {
+    width: 465px;
+    border-radius: 14px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.Para {
+    font-weight: 400;
+    color: #717171;
+    font-size: 18px;
+}
+
+.Para1 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.Para1 span {
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.flexbox {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 3px;
+}
+
+.cardheader {
+    position: relative;
+}
+
+.card {
+    width: 260px;
+    border: none;
+    border-radius: 14px;
+    margin-bottom: 12px;
+    position: relative;
+    cursor: pointer;
+}
+
+.card p span {
+    font-weight: 500;
+    color: black;
+}
+
+.space {
+    margin-top: 6px;
+}
+
+.card p {
+    text-align: left;
+    margin-left: 4px;
+    color: #717171;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.heart {
+    position: absolute;
+    top: 15px;
+    right: 22px;
+}
+
+.dots {
+    position: absolute;
+    position: absolute;
+    bottom: 95px;
+    left: 50%;
+}
+
+.bi-three-dots {
+    color: white;
+}
+
+.bi-heart {
+    color: white;
+
+}
+
+
+.bi-star-fill {
+    color: black;
+}
+
+.flex a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.flex h4 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 0;
+}
+
+.more {
+    font-size: 18px;
+    padding: 12px 25px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.futuer {
+    width: 100%;
+    background-color: #F7F7F7;
+    padding-top: 20px;
+    padding-left: 45px;
+    height: 80Vh;
+}
+
+.futuer h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.f-nav {
+    border-bottom: 2px solid #cccccc;
+}
+
+.f-nav .f-navul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.f-navli .f-nava {
+    text-decoration: none;
+    color: #717171;
+    font-weight: 500;
+}
+
+.f-navul .f-navli {
+    list-style: none;
+}
+
+.Active .f-nava {
+    border-bottom: 2px solid black !important;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.f-Des .f-Desul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+.f-Desul .f-Desli {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-right: 78px;
+}
+
+.f-Desli .f-Desa {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.f-Desli .change-color {
+    text-decoration: none;
+    color: #717171;
+}
+
+#Footer {
+    padding: 25px 2% 10px;
+    padding-left: 45px;
+    border-top: 1px solid #cccccc;
+    color: #777;
+
+}
+
+.row {
+    display: flex;
+}
+
+
+footer .language {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+footer .col a {
+    display: block;
+    color: #575555;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+footer .col a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+.privacy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #cccccc;
+}
+
+.privacy a {
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.left-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.world2 {
+    padding: 11px;
+    border-radius: 40px;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ruppy p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.bi-instagram {
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+
+.bi-twitter {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    margin: 0 10px;
+}
+
+.bi-facebook {
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+
+.ruppy p span {
+    color: black;
+    font-weight: 500;
+    margin-left: 9px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.ruppy p span:hover {
+    text-decoration: underline;
+}
+
+.ruppy p:hover {
+    text-decoration: underline;
+}
+
+.ruppy p span a {
+    text-decoration: none;
+    color: black;
+}
